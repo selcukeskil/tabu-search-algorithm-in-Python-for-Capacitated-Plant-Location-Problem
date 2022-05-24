@@ -13,4 +13,19 @@ We aim to find the least costly solution that will meet the demands of all custo
 
 Before we start solving the problem with the algorithm, we need to create the mathematical model. On a "daily" basis, the CPL model can be formulated as follows:
 
-We start by writing the objective function first.   
+We start by deciding on the decision variables. Let y_i (i = 1,...,6) be the binary decision variable associated to potential site i (with value 1 if silo i is purchased by the Company, 0 otherwise). And, let x_ij (i = 1,...,6 and j = 1,...,7) be the "fraction" of the farm j demand satisfied by the site i.
+
+Now we write the objective function that we aim to minimize. 
+
+Activating facilities will have a cost, and of course we must include them in the objective function. For example, the "daily" cost of activating potential site 1 is calculated as follows: 321420 / 1461 = 220. We calculate the cost of activating the remaining facilities in the same way.
+
+We should also include the costs of transportation from the facilities to the farms in the objective function. For example, if facility 1 meets the entire demand of farm 1, the cost to be incurred (c_11) is calculated as follows: 0.06 × 2 × 18 × 36 + 0.15 × 36 = 83.16. Similar procedure is used to calculate the other costs c_ij (i = 1,...,6, j = 1,...,7). 
+
+
+As a result, we can write the objective function we want to minimize as follows:
+
+![image](https://user-images.githubusercontent.com/82934361/170119711-49f8fb40-2195-4882-99d7-15f4c5f2e576.png)
+
+
+
+
