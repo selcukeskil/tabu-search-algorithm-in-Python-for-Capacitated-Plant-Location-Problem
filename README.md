@@ -34,7 +34,12 @@ Our first set of constraints is as you can see below. These are demand constrain
 
 Our second set of constraints is as you can see below. These are logical constraints; that is, as soon as the left side of any constraint is positive, the binary y decision variable on the right is forced to be 1. Logically, for example, if the left side of the 1st less than equal constraint is positive, it means that some farm demands will be met by facility 1, and for this to happen, facility 1 must be open, that is, the decision variable y_1 must be forced to be 1. At the same time, these constraints ensure that the capacity limits are not exceeded:
 
-![image](https://user-images.githubusercontent.com/82934361/170121253-88192b30-0aa4-4a60-8a15-cad1a0713dad.png)
+![image](https://user-images.githubusercontent.com/82934361/170121588-e814fc9b-15d3-4a3b-9e37-c4a986f681ae.png)
+
+And below you can see the constraints of the decision variables. These constraints force the decision variable x_ij to be non-negative and the decision variable y_i to be binary:
+
+![image](https://user-images.githubusercontent.com/82934361/170121718-cd82c95f-2015-4983-8f03-2a29ca3e35c3.png)
+
 
 
 
