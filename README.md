@@ -42,7 +42,12 @@ And below you can see the constraints of the decision variables. These constrain
 
 It should be noted that; the optimal solution to the problem ensures that facilities 1, 5 and 6 are capitalized and the total daily cost is equal to 1218.08.
 
+# Interpreting the output of the algorithm's code
+Output is as you can see below:
 
+![image](https://user-images.githubusercontent.com/82934361/170123703-15788e8e-6a46-4c7f-a7f4-c56d4f0ba39f.png)
+
+The code reached the optimum result in approximately 0.153 seconds and 8 iterations. We know that if we increase the size of the problem, it will not be as successful, but it is clear that this result is quite fast.
 
 
 
