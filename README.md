@@ -11,3 +11,6 @@ Note: The company is planning to keep the warehouses in operation for four years
 
 We aim to find the least costly solution that will meet the demands of all customers (farms) without exceeding the capacity of the facilities. So our aim is to decide which facilities we will open.
 
+Before we start solving the problem with the algorithm, we need to create the mathematical model. On a "daily" basis, the CPL model can be formulated as follows:
+
+We start by writing the objective function first.   
