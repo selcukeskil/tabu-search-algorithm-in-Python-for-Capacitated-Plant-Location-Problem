@@ -26,6 +26,17 @@ As a result, we can write the objective function we want to minimize as follows:
 
 ![image](https://user-images.githubusercontent.com/82934361/170119711-49f8fb40-2195-4882-99d7-15f4c5f2e576.png)
 
+Next, we must write the constraints of the mathematical model. 
+
+Our first set of constraints is as you can see below. These are demand constraints. That is, they are constraints that ensure that all farm demands are fully met:
+
+![image](https://user-images.githubusercontent.com/82934361/170120206-1413758d-2335-41f4-b520-b1e26493d85f.png)
+
+Our second set of constraints is as you can see below. These are logical constraints; that is, as soon as the left side of any constraint is positive, the binary y decision variable on the right is forced to be 1. Logically, for example, if the left side of the 1st less than equal constraint is positive, it means that some farm demands will be met by facility 1, and for this to happen, facility 1 must be open, that is, the decision variable y_1 must be forced to be 1. At the same time, these constraints ensure that the capacity limits are not exceeded:
+
+![image](https://user-images.githubusercontent.com/82934361/170121253-88192b30-0aa4-4a60-8a15-cad1a0713dad.png)
+
+
 
 
 
