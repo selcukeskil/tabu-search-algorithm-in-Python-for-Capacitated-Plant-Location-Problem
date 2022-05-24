@@ -49,7 +49,7 @@ Output is as you can see below:
 
 The code reached the optimum result in approximately 0.153 seconds and 8 iterations. We know that if we increase the size of the problem, it will not be as successful, but it is clear that this result is quite fast.
 
-.
+
 
 
 
