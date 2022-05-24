@@ -40,6 +40,15 @@ And below you can see the constraints of the decision variables. These constrain
 
 ![image](https://user-images.githubusercontent.com/82934361/170121718-cd82c95f-2015-4983-8f03-2a29ca3e35c3.png)
 
+It should be noted that; the optimal solution to the problem ensures that facilities 1, 5 and 6 are capitalized and the total daily cost is equal to 1218.08.
+
+
+
+
+
+
+
+
 
 
 
