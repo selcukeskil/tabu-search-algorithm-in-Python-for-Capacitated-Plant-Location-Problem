@@ -56,6 +56,11 @@ Taboo search implements the methods of local search, and at some moments (i.e. w
 
 Briefly; In tabu search, a move is always made towards the best solution in the neighborhood, even if it is worse than the current solution. This helps to avoid local optima.
 
+In tabu search, "short-term memory" is used to avoid cyclic moves (that is, the same region is visited over and over) in problem solving. The algorithm's "Short-term memory" is created by preventing the search from revisiting previously visited solutions (i.e. creating a "tabu list"). We do not store ALL visited solutions in the Tabu list. Usually, only some forbidden solutions, moves or their attributes are stored in the Tabu list. 
+
+In our code; to the tabu list, moves that are taboo are appended with their tabu tanure; tabu tanure is the lifetime of a taboo (ie how many iterations a tabu will remain taboo for)
+
+
 
 
 
