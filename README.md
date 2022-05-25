@@ -58,7 +58,7 @@ Briefly; In tabu search, a move is always made towards the best solution in the 
 
 In tabu search, "short-term memory" is used to avoid cyclic moves (that is, the same region is visited over and over) in problem solving. The algorithm's "Short-term memory" is created by preventing the search from revisiting previously visited solutions (i.e. creating a "tabu list"). We do not store ALL visited solutions in the Tabu list. Usually, only some forbidden solutions, moves or their attributes are stored in the Tabu list. 
 
-In our code; to the tabu list, moves that are taboo are appended with their tabu tanure; tabu tanure is the lifetime of a taboo (ie how many iterations a tabu will remain taboo for)
+In our code; to the tabu list, moves that are taboo are appended with their tabu tanure; tabu tanure is the lifetime of a taboo (ie how many iterations a tabu will remain taboo for).
 
 # Procedure of our code
 ![image](https://user-images.githubusercontent.com/82934361/170269853-922040b5-9696-4b01-a61e-77a034bff419.png)
