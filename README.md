@@ -61,8 +61,8 @@ In tabu search, "short-term memory" is used to avoid cyclic moves (that is, the 
 In our code; to the tabu list, moves that are taboo are appended with their tabu tanure; tabu tanure is the lifetime of a taboo (ie how many iterations a tabu will remain taboo for)
 
 # Procedure of our code
-1. Step 1: Initialization
-  Random initial solution is created
+![image](https://user-images.githubusercontent.com/82934361/170269853-922040b5-9696-4b01-a61e-77a034bff419.png)
+
   
 
 
