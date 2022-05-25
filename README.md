@@ -47,7 +47,12 @@ Output is as you can see below:
 
 ![image](https://user-images.githubusercontent.com/82934361/170123703-15788e8e-6a46-4c7f-a7f4-c56d4f0ba39f.png)
 
-The code reached the optimum result in approximately 0.153 seconds and 8 iterations. We know that if we increase the size of the problem, it will not be as successful, but it is clear that this result is quite fast.
+The code reached the optimum result in approximately 0.153 seconds and 8 iterations. We know that if we increase the size of the problem, it will not be as successful, but it is clear that this result is quite fast. 
+
+# Taboo Search Algorithm in Brief
+Tabu search is a "metaheuristic" search method employing local search methods used for mathematical optimization. To explain the difference between heuristics and metaheuristics; heuristics are often problem dependent, meaning you define a heuristic for a particular problem. Metaheuristics are problem-free techniques that can be applied to a wide range of problems. Tabu search (TS) is a metaheuristic algorithm that can be used for solving combinatorial optimization problems. 
+
+
 
 
 
