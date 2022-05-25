@@ -63,7 +63,7 @@ In our code; to the tabu list, moves that are taboo are appended with their tabu
 # Procedure of our code
 ![image](https://user-images.githubusercontent.com/82934361/170269853-922040b5-9696-4b01-a61e-77a034bff419.png)
 
-  
+Note: You can find detailed explanations of how the code works in the comments of code.  
 
 
 
