@@ -52,7 +52,12 @@ The code reached the optimum result in approximately 0.153 seconds and 8 iterati
 # Taboo Search Algorithm in Brief
 Tabu search is a "metaheuristic" search method used for mathematical optimization. To explain the difference between heuristics and metaheuristics; heuristics are often problem dependent, meaning you define a heuristic for a particular problem. Metaheuristics are problem-free techniques that can be applied to a wide range of problems. Tabu search (TS) is a metaheuristic algorithm that can be used for solving combinatorial optimization problems. 
 
-Taboo search implements the methods of local search, and at some moments it can use more than one way to escape the local optimum: accepting bad moves (that is, accepting a solution as an current solution even though it costs more), changing the objective function or changing the neighborhood structure.
+Taboo search implements the methods of local search, and at some moments (i.e. where all the neighbouring solutions are non-improving) it can use more than one way to escape the local optimum: accepting bad moves (that is, accepting a solution as an current solution even though it costs more), changing the objective function or changing the neighborhood structure. In our code, tabu search occasionally accepts bad moves to avoid local optima's.
+
+Briefly; In tabu search, a move is always made towards the best solution in the neighborhood, even if it is worse than the current solution. This helps to avoid local optima.
+
+
+
 
 
 
